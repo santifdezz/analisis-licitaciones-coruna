@@ -97,3 +97,6 @@ El análisis realizado incluye:
  - Identificación de contratos con un solo licitador.
  - Análisis de contratos urgentes y su impacto en los costos.
  - Visualización de los procedimientos de contratación más comunes.
+
+## Licencia
+Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
