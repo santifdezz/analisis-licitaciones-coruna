@@ -1,6 +1,6 @@
 # Análisis de Licitaciones Públicas en A Coruña
 
-Este proyecto combina **web scraping** y **análisis de datos** para estudiar las licitaciones públicas realizadas en A Coruña. El objetivo es identificar patrones, irregularidades y características relevantes en los procesos de contratación pública.
+Este proyecto tiene como objetivo realizar un análisis detallado de las licitaciones públicas del **Ayuntamiento de A Coruña**. Incluye herramientas de scraping para la extracción de datos desde el portal oficial de contratación del Estado, procesamiento y análisis de los datos obtenidos, y generación de visualizaciones para facilitar la comprensión de los resultados.
 
 ## Tabla de Contenidos
 
@@ -61,6 +61,7 @@ El proyecto consta de dos partes principales:
 - `matplotlib`
 - `seaborn`
 - `unicodedata`
+- `webdriver`
 
 ---
 
@@ -74,7 +75,7 @@ El proyecto consta de dos partes principales:
 
 2. Instala las dependencias (o con un entorno conda utilizando los comandos en los notebooks):
    ```bash
-   pip install -r requirements.txt
+   conda env create --file environment.yml
    ```
 3. Asegúrate de tener Firefox y Geckodriver instalados y configurados en tu sistema.
 
@@ -84,7 +85,9 @@ El proyecto consta de dos partes principales:
    python scrapping_licitaciones_coruna.py
     ```
 2. Procesa y analiza los datos utilizando el cuaderno de análisis:
-   pip install -r requirements.txt
+   ```bash
+   python scrapping_licitaciones_coruna.ipynb
+   ```
 3. Los resultados se exportarán a un archivo CSV y se generarán gráficos para su interpretación.
 
 ## Resultados
